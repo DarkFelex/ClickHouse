@@ -17,6 +17,7 @@ Install required compilers, tools, libraries
 
 .. code-block:: bash
 
+    brew install cmake gcc@6 mysql && \
     brew install cmake gcc icu4c mysql openssl unixodbc libtool gettext homebrew/dupes/zlib readline boost --cc=gcc-6
 
 
